@@ -1,0 +1,120 @@
+* {
+
+  font-family: 'Roboto', sans-serif;
+  
+  }
+
+/* Bloc 1 */
+
+.bloc {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 30px;
+  background: linear-gradient(145deg, #202020, #161515);
+  padding-top: 1;
+  padding-bottom: 20px;
+  margin-right: 3;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6), -4px -4px 10px rgba(50, 50, 50, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bloc:hover {
+  transform: translateY(-1px);
+  box-shadow: 6px 8px 15px rgba(0, 0, 0, 0.8), -6px -6px 15px rgba(50, 50, 50, 0.4);
+}
+
+.img1 {
+    height: 90px;
+    display: flex;
+}
+
+  .header {
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 1px 5px 5px rgb(20, 19, 19);
+  }
+  
+  
+    .header a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding:  14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  
+    .header a.active {
+      background-color: #1a1919;
+      color: white;
+    }
+  
+      .header a:hover{
+      background-color: rgb(34, 34, 34);
+    }
+
+    .textarticle {
+        color: #f2f2f2;
+        
+    }
+
+    .label {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+        background-color: #d9534f;
+    }
+
+    .white {
+        filter: invert();
+    }
+
+    h1 {
+      color: #f2f2f2;
+    }
+
+    h2 {
+      color: #f2f2f2;
+    }
+
+    .espace{
+      height: 10px;
+      width: 0px;
+    }
+
+    .label2 {
+      display: inline;
+      padding: .2em .6em .3em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25em;
+      background-color: #3b20d1;
+  }
+
+  .textlink {
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+
+  .label2 :hover {
+    color: #00eeff;
+    transition-duration: 1.5s;
+  }
+
+  .ligne1{
+    padding: 30px;
+  }

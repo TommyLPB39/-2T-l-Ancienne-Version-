@@ -1,0 +1,114 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="archives.css" rel="stylesheet">
+    <title>Archives</title>
+</head>
+
+<header>
+
+    <img class="ligne1" src="logoplus2tele.png" height="60">
+    <div class="header">
+        <a class="active" href="accueil.html">Accueil</a>
+        <a class="active" href="archives.html">Archives</a>
+        <a class="active" href="accueil.html">Discord</a>
+        <a class="active" href="mentions-l%C3%A9gales.html">Mentions Légales</a>
+      </div>
+
+    </header>
+
+<body>
+    <p class="espace"></p>
+    <body style="background: rgb(41, 41, 37);"></body>
+    <center><section class="search-filter">
+        <input type="text" id="search" placeholder="Rechercher une vidéo..." oninput="filterVideos()">
+        <select id="category" onchange="filterVideos()">
+            <option value="all">Toutes les chaines</option>
+            <option value="TF1">France 2</option>
+            <option value="musique">France 3</option>
+            <option value="film">Canal+</option>
+            <option value="film">France 5</option>
+            <option value="film">M6</option>
+            <!-- Pour créer d'autres catégories c'est ici -->
+        </select>
+        <select id="types" onchange="filterVideos2()">
+            <option value="all">Tout les types</option>
+            <option value="jinglepub">Jingle Pub</option>
+            <option value="jingletransition">Jingle de Transition</option>
+            <option value="z">Bandes Annonces</option>
+            <option value="e">Problèmes Techniques</option>
+            <option value="x">Autres choses</option>
+            <!-- Pour créer d'autres catégories c'est ici -->
+        </select>
+        <select id="date" onchange="filterVideos3()">
+            <option value="all">Toutes les années</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <!-- Pour créer d'autres catégories c'est ici -->
+        </select>
+      </section>
+      <p ></p>
+      <p></p>
+      <main>
+        <section class="video-library" id="videoLibrary">
+            <!-- Vidéo 1 -->
+            <article class="video-item" data-category="TF1" data-category2="jinglepub" data-category3="2024">
+                <div class="bloc">
+                <h2 class="textarticle">Jingle Pub TF1 2024</h2>
+                <span class="label">TF1</span>
+                <span class="label">Jingle Pub</span>
+                <span class="label">2024</span>
+                <span class="label"><img class="white" height="10px" src="VHS_logo.png" alt=""></span><br><br>
+                <span class="label2"><a  class="textlink" href="Pages Archives/TF1/2024/archive1.html">Consulter la vidéo</a></span>
+                
+                <p></p>
+                <img class="img1" src="Insérer un logo d'archives" alt="">
+            </div>
+            </article>
+            <p></p>
+                <!-- Vidéo 2 -->
+                <article class="video-item" data-category="France2" data-category2="z" data-category3="2022">
+                    <div class="bloc">
+                    <h2 class="textarticle">Jingle Pub TF1 2024</h2>
+                    <span class="label">TF1</span>
+                    <span class="label">Jingle Pub</span>
+                    <span class="label">2024</span>
+                    <span class="label"><img class="white" height="10px" src="VHS_logo.png" alt=""></span><br><br>
+                    <span class="label2"><a  class="textlink" href="Pages Archives/TF1/2024/archive1.html">Consulter la vidéo</a></span>
+                    
+                    <p></p>
+                    <img class="img1" src="Insérer un logo d'archives" alt="">
+                </div>
+                </article>
+                <p></p>
+                <!-- Vidéo 3 -->
+            <article class="video-item" data-category="TF1" data-category2="jinglepub" data-category3="2024">
+                <div class="bloc">
+                <h2 class="textarticle">Jingle Pub TF1 2024</h2>
+                <span class="label">TF1</span>
+                <span class="label">Jingle Pub</span>
+                <span class="label">2024</span>
+                <span class="label"><img class="white" height="10px" src="VHS_logo.png" alt=""></span><br><br>
+                <span class="label2"><a  class="textlink" href="Pages Archives/TF1/2024/archive1.html">Consulter la vidéo</a></span>
+                
+                <p></p>
+                <img class="img1" src="Insérer un logo d'archives" alt="">
+            </div>
+            </article>
+        
+            <p class="espace"></p>
+            <!-- D'autres vidéos sont ajoutable ici -->
+        </section>
+    </center>
+        
+      </main>
+      
+      <footer>
+        <script src="script.js"></script>
+      </footer>
+</body>
+</html>
